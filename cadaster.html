@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+    <title>Netflix clone</title>
+  </head>
+  <body
+    style="
+      display: flex;
+      padding: 0px 0;
+      color: white;
+      backdrop-filter: blur(1px);
+      background: url('images/background-net.png') no-repeat bottom center scroll;
+      background-position: 30% 0%;
+      background-size: cover;
+    "
+  >
+    <header style="position: absolute; width: 100%">
+      <div class="logo">
+        <a href="index.html"
+          ><img
+            src="images/logo.png"
+            alt=""
+            style="margin: 20px; width: 15vh; z-index: 999px; cursor: pointer"
+        /></a>
+        <div class="btn-net">
+         <a href="Login.html"> <button>Sign in</button></a>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="fundo">
+        <h1 style="margin: 20px; font-family: Arial">Sign in</h1>
+        <form action="">
+          <div class="inputs_form">
+            <input type="text" placeholder="Name" />
+          </div>
+          <div class="inputs_form">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="inputs_form">
+            <input type="password" placeholder="Password" />
+          </div>
+          <div class="inputs_form">
+            <input type="password" placeholder="Confirm Password" />
+          </div>
+        </form>
+        <div class="button_clss">
+          <a href="Login.html"><button class="btn">Sign in</button></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

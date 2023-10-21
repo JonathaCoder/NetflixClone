@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container_home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  display: flex;
+  background-color: rgb(102, 102, 102);
+  margin: 23px;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 89%;
+  border: none;
+  border-radius: 5px;
+  padding-inline: 10px;
+}
+input::placeholder {
+  color: rgb(187, 186, 186);
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fundo {
+  background-color: rgba(0, 0, 0, 0.808);
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 48vh;
+  height: 8vh;
+  border-radius: 5px;
+  font-size: 25px;
+  cursor: pointer;
+
+}
+.btn:hover {
+  background-color: rgb(255, 99, 99);
+  color: white;
+  transition: 0.4s;
+}
+.button_clss {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.logo {
+  display: flex;
+}
+.btn-net button {
+  background-color: red;
+  color: white;
+  border: none;
+  width: 15vh;
+  height: 7vh;
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn-net button:hover {
+  background-color: rgb(255, 92, 92);
+  color: white;
+  transition: 0.4s;
+}
+.btn-net {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin: 20px;
+  align-items: center;
+}
+form {
+  width: 95%;
+}
